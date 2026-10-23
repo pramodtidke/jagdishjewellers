@@ -1,12 +1,12 @@
 (()=>{
-const c=window.JAGDISH_SITE||{};const enc=encodeURIComponent;
-const wa=(message)=>`https://wa.me/${c.whatsappNumber||'917972935833'}?text=${enc(message||c.whatsappMessage||'Hello Jagdish Jewellers, I would like to enquire.')}`;
-document.querySelectorAll('[data-phone]').forEach(a=>{a.href='tel:'+(c.phoneTel||'+917972935833');a.textContent=c.phoneDisplay||'+91 79729 35833'});
+const c=window.RAJLAXMI_SITE||{};const enc=encodeURIComponent;
+const wa=(message)=>`https://wa.me/${c.whatsappNumber||'919822230265'}?text=${enc(message||c.whatsappMessage||'Hello Rajlaxmi Jewellers, I would like to enquire.')}`;
+document.querySelectorAll('[data-phone]').forEach(a=>{a.href='tel:'+(c.phoneTel||'+919822230265');a.textContent=c.phoneDisplay||'+91 98222 30265'});
 document.querySelectorAll('[data-address]').forEach(e=>e.textContent=c.address||'Nagpur, Maharashtra');
-document.querySelectorAll('[data-whatsapp]').forEach(a=>{const msg=a.dataset.message||(a.dataset.category?`Hello Jagdish Jewellers, I would like to enquire about ${a.dataset.category}.`:c.whatsappMessage);a.href=wa(msg);a.target='_blank';a.rel='noopener'});
-document.querySelectorAll('[data-directions]').forEach(a=>a.href='https://www.google.com/maps/dir/?api=1&destination='+enc(c.mapQuery||c.address||'Jagdish Jewellers, Nagpur'));
-const map=document.querySelector('[data-map]');if(map)map.src='https://maps.google.com/maps?q='+enc(c.mapQuery||c.address||'Jagdish Jewellers, Nagpur')+'&z=15&output=embed';
-const social=document.querySelector('[data-social]');if(social){[['Instagram',c.instagramUrl],['Facebook',c.facebookUrl]].forEach(([name,url])=>{if(url){const a=document.createElement('a');a.href=url;a.target='_blank';a.rel='noopener';a.textContent=name;social.appendChild(a)}})}
+document.querySelectorAll('[data-whatsapp]').forEach(a=>{const msg=a.dataset.message||(a.dataset.category?`Hello Rajlaxmi Jewellers, I would like to enquire about ${a.dataset.category}.`:c.whatsappMessage);a.href=wa(msg);a.target='_blank';a.rel='noopener'});
+document.querySelectorAll('[data-directions]').forEach(a=>a.href='https://www.google.com/maps/dir/?api=1&destination='+enc(c.mapQuery||c.address||'Rajlaxmi Jewellers, Nagpur'));
+const map=document.querySelector('[data-map]');if(map)map.src='https://maps.google.com/maps?q='+enc(c.mapQuery||c.address||'Rajlaxmi Jewellers, Nagpur')+'&z=15&output=embed';
+const social=document.querySelector('[data-social]');if(social){social.querySelectorAll('a').forEach(a=>a.remove());[['Instagram',c.instagramUrl],['Facebook',c.facebookUrl]].forEach(([name,url])=>{if(url){const a=document.createElement('a');a.href=url;a.target='_blank';a.rel='noopener';a.textContent=name;social.appendChild(a)}});if(!c.instagramUrl&&!c.facebookUrl)social.hidden=true}
 document.querySelectorAll('[data-year]').forEach(e=>e.textContent=new Date().getFullYear());
 const toggle=document.querySelector('.menu-toggle'),nav=document.querySelector('.nav');if(toggle&&nav){toggle.addEventListener('click',()=>{const open=nav.classList.toggle('open');toggle.setAttribute('aria-expanded',String(open));toggle.innerHTML=open?'Close <span aria-hidden="true">×</span>':'Menu <span aria-hidden="true">☰</span>'});nav.querySelectorAll('a').forEach(a=>a.addEventListener('click',()=>{nav.classList.remove('open');toggle.setAttribute('aria-expanded','false')}))}
 const filters=document.querySelectorAll('[data-filter]'),items=document.querySelectorAll('.gallery-item');filters.forEach(b=>b.addEventListener('click',()=>{filters.forEach(x=>x.classList.toggle('active',x===b));items.forEach(i=>i.hidden=b.dataset.filter!=='all'&&i.dataset.category!==b.dataset.filter)}));

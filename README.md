@@ -1,4 +1,4 @@
-# Jagdish Jewellers — static website
+# Rajlaxmi Jewellers — static website
 
 Premium multi-page website concept by Markase, built with HTML, CSS and vanilla JavaScript for GitHub Pages. No build step or backend is required.
 
@@ -35,3 +35,6 @@ Replace the remote demo image URLs in the HTML with approved, optimized client p
 - The contact page has no enquiry form; customers can use the phone and WhatsApp links.
 - Instagram and Facebook links are shown in the footer. Replace platform home URLs with the verified official store profile URLs in `assets/js/site-config.js` before launch.
 - Confirm phone, address, map pin and store hours with the owner before publishing.
+
+
+Before publishing: verify the phone/WhatsApp number with the shop, add official social profile URLs in `assets/js/site-config.js`, and replace illustrative SVG jewellery artwork with owner-approved product photos if available. The supplied phone is based on the Google Maps listing and should be confirmed.

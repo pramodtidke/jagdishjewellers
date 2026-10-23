@@ -1,6 +1,6 @@
 # Asset replacement guide
 
-The current product and occasion photos are remote Unsplash demo images referenced in the HTML. They are illustrative only and must not be represented as actual Jagdish Jewellers inventory or store photographs.
+The current product and occasion photos are remote Unsplash demo images referenced in the HTML. They are illustrative only and must not be represented as actual Rajlaxmi Jewellers inventory or store photographs.
 
 Recommended replacement workflow:
 1. Gather owner-approved shop exterior/interior photos, product close-ups and bridal/occasion images.

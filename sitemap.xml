@@ -1,1 +1,9 @@
-<?xml version="1.0" encoding="UTF-8"?><urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"><url><loc>https://YOUR-DOMAIN.example/</loc></url><url><loc>https://YOUR-DOMAIN.example/about.html</loc></url><url><loc>https://YOUR-DOMAIN.example/collections.html</loc></url><url><loc>https://YOUR-DOMAIN.example/bridal.html</loc></url><url><loc>https://YOUR-DOMAIN.example/gallery.html</loc></url><url><loc>https://YOUR-DOMAIN.example/contact.html</loc></url></urlset>
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url><loc>https://pramodtidke.github.io/jagdishjewellers/</loc></url>
+  <url><loc>https://pramodtidke.github.io/jagdishjewellers/about.html</loc></url>
+  <url><loc>https://pramodtidke.github.io/jagdishjewellers/collections.html</loc></url>
+  <url><loc>https://pramodtidke.github.io/jagdishjewellers/bridal.html</loc></url>
+  <url><loc>https://pramodtidke.github.io/jagdishjewellers/gallery.html</loc></url>
+  <url><loc>https://pramodtidke.github.io/jagdishjewellers/contact.html</loc></url>
+</urlset>
